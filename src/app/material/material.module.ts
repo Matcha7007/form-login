@@ -6,6 +6,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatInputModule } from '@angular/material/input';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatIconModule } from '@angular/material/icon';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 const MaterialComponent = [
   MatButtonModule,
@@ -14,7 +15,8 @@ const MaterialComponent = [
   MatToolbarModule,
   MatInputModule,
   MatTooltipModule,
-  MatIconModule
+  MatIconModule,
+  MatGridListModule
 ]
 
 @NgModule({
@@ -27,5 +29,3 @@ const MaterialComponent = [
   ]
 })
 export class MaterialModule { }
-
-
